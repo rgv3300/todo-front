@@ -3,9 +3,9 @@ import React from 'react';
 function ToDoItem() {
   return (
     <div>
-      <div>{}</div>
-      <div>{}</div>
-      <div>{}</div>
+      <div>Title</div>
+      <div>Description</div>
+      <div>Date due</div>
       <button type="button" onClick={() => { console.log('clicked'); }}>Delete</button>
       <input type="checkbox" />
     </div>
